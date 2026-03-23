@@ -16,7 +16,7 @@ function Header() {
                             isActive ? 'site-header__link active' : 'site-header__link'
                         }
                     >
-                        Главная
+                        Home
                     </NavLink>
 
                     <NavLink
@@ -25,7 +25,7 @@ function Header() {
                             isActive ? 'site-header__link active' : 'site-header__link'
                         }
                     >
-                        О нас
+                        About
                     </NavLink>
 
                     <NavLink
@@ -34,7 +34,7 @@ function Header() {
                             isActive ? 'site-header__link active' : 'site-header__link'
                         }
                     >
-                        Услуги
+                        Services
                     </NavLink>
 
                     <NavLink
@@ -43,7 +43,7 @@ function Header() {
                             isActive ? 'site-header__link active' : 'site-header__link'
                         }
                     >
-                        Контакты
+                        Contact
                     </NavLink>
 
                     <NavLink
@@ -52,7 +52,7 @@ function Header() {
                             isActive ? 'site-header__link active' : 'site-header__link'
                         }
                     >
-                        Вход
+                        Login
                     </NavLink>
                 </nav>
             </div>
