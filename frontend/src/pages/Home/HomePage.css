@@ -1,0 +1,126 @@
+.home-page {
+    width: 100%;
+}
+
+.home-hero {
+    width: 100%;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+}
+
+.home-hero__content {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.home-hero__left,
+.home-hero__right {
+    width: 100%;
+}
+
+.home-hero__left {
+    max-width: 700px;
+}
+
+.home-hero__label {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1d4ed8;
+    margin-bottom: 14px;
+}
+
+.home-hero__title {
+    font-size: 44px;
+    line-height: 1.15;
+    color: #0f172a;
+    margin-bottom: 20px;
+}
+
+.home-hero__text {
+    font-size: 18px;
+    color: #334155;
+    max-width: 620px;
+    margin-bottom: 24px;
+}
+
+.home-hero__actions {
+    margin-bottom: 18px;
+}
+
+.home-hero__api-status {
+    font-size: 16px;
+    color: #0f766e;
+    font-weight: 600;
+}
+
+.home-hero__right {
+    max-width: 380px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-hero__card {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 18px;
+    padding: 28px;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.08);
+}
+
+.home-hero__card-title {
+    font-size: 24px;
+    margin-bottom: 18px;
+    color: #0f172a;
+}
+
+.home-hero__list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    list-style: disc;
+    padding-left: 20px;
+    color: #475569;
+}
+
+@media (max-width: 992px) {
+    .home-hero__content {
+        flex-direction: column;
+    }
+
+    .home-hero__left,
+    .home-hero__right {
+        max-width: 100%;
+    }
+
+    .home-hero__right {
+        justify-content: flex-start;
+    }
+
+    .home-hero__title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-hero__content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .home-hero__title {
+        font-size: 30px;
+    }
+
+    .home-hero__text {
+        font-size: 16px;
+    }
+
+    .home-hero__card {
+        padding: 22px;
+    }
+}

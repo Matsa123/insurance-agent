@@ -1,0 +1,18 @@
+# Laravel backend
+/backend/vendor
+/backend/.env
+/backend/storage/*.key
+/backend/bootstrap/cache/*.php
+
+# React frontend
+/frontend/node_modules
+/frontend/dist
+/frontend/build
+
+# Общие файлы
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+npm-debug.log
+yarn-error.log
