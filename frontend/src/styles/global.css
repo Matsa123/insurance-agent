@@ -31,3 +31,21 @@ input,
 textarea {
     font: inherit;
 }
+
+.secondary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: 1px solid #1d4ed8;
+    color: #1d4ed8;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.secondary-button:hover {
+    background-color: #1d4ed8;
+    color: #ffffff;
+}

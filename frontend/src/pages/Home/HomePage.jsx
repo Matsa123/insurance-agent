@@ -24,17 +24,21 @@ function HomePage() {
                         <p className="home-hero__label">Trusted Insurance Protection</p>
 
                         <h1 className="home-hero__title">
-                            Insurance solutions for families, businesses, and personal property
+                            Protect What Matters Most
                         </h1>
 
                         <p className="home-hero__text">
-                            We help clients find the right insurance coverage, submit requests,
-                            and receive professional support at every step.
+                            Trusted coverage for home, auto, health, and business.
+                            Get personalized insurance solutions tailored to your needs.
                         </p>
 
                         <div className="home-hero__actions">
                             <Link to="/contact" className="primary-button">
                                 Request a Quote
+                            </Link>
+
+                            <Link to="/contact" className="secondary-button">
+                                Talk to an Agent
                             </Link>
                         </div>
 
@@ -46,10 +50,10 @@ function HomePage() {
                             <h3 className="home-hero__card-title">Why Choose Us</h3>
 
                             <ul className="home-hero__list">
-                                <li>Personalized insurance recommendations</li>
-                                <li>Professional client support and guidance</li>
-                                <li>Simple online request process</li>
-                                <li>Scalable platform for future client dashboard and admin panel</li>
+                                <li>Personalized insurance plans</li>
+                                <li>Fast and simple application process</li>
+                                <li>Expert support at every step</li>
+                                <li>Trusted by clients across the USA</li>
                             </ul>
                         </div>
                     </div>
@@ -59,10 +63,10 @@ function HomePage() {
             <section className="home-services page-section">
                 <div className="home-services__top">
                     <p className="home-services__label">Our Services</p>
-                    <h2 className="page-title">Main Insurance Services</h2>
+                    <h2 className="page-title">Get Covered Today</h2>
                     <p className="page-text">
-                        We provide insurance solutions for individuals, families,
-                        entrepreneurs, and companies.
+                        We provide flexible insurance options designed to protect your life,
+                        family, and business.
                     </p>
                 </div>
 
@@ -118,7 +122,7 @@ function HomePage() {
 
                 <div className="home-services__bottom">
                     <Link to="/contact" className="primary-button">
-                        Get a Consultation
+                        Get Covered Today
                     </Link>
                 </div>
             </section>
